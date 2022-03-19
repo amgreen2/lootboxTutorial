@@ -7,40 +7,45 @@ export type Question = {
 
 const quizQuestions: Question[] = [
   {
-    questionText: "What do the initials DB in Aston Martin DB11 stand for?",
+    questionText: "What turbo engine comes in the Toyota JZX90?",
     image:
-      "https://images.unsplash.com/photo-1642201855395-1c8b44e6e42b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+      "https://bafybeic7plidziqh4ozchzsvw6fld7z3rpqc552n32qccjcfhatmppea7u.ipfs.dweb.link/1",
     answers: [
-      "Trick question: nothing!",
-      "David Brown",
-      "Drive Better",
-      "Diane Blue",
+      "1G-GTE",
+      "SR20DET",
+      "ej25",
+      "1JZ-GTE",
     ],
+    correctAnswerIndex: 3,
+  },
+  {
+    questionText: "How many cylinders does the 1JZ-GTE engine have?",
+    image: 
+    "https://bafybeic7plidziqh4ozchzsvw6fld7z3rpqc552n32qccjcfhatmppea7u.ipfs.dweb.link/0",
+    answers: ["4", "6", "8", "12"],
     correctAnswerIndex: 1,
   },
   {
-    questionText: "Which car brand is this logo for?",
-    image: "https://www.carlogos.org/logo/Lexus-symbol-640x480.jpg",
-    answers: ["Lamborghini", "Lada", "Lotus", "Lexus"],
-    correctAnswerIndex: 3,
-  },
-  {
-    questionText: "Where in the UK is the MINI plant?",
+    questionText: "What is the chassis code of the Nissan Cefiro pictured?",
     image:
-      "https://images.unsplash.com/photo-1591439346018-9d5df732ab7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80",
-    answers: ["Oxford", "Cambridge", "London", "Edinburgh"],
-    correctAnswerIndex: 0,
-  },
-  {
-    questionText:
-      "Which was the first James Bond film to include an Aston Martin?",
-    answers: ["Dr No", "From Russia with Love", "Goldfinger", "Thunderball"],
+    "https://bafybeic7plidziqh4ozchzsvw6fld7z3rpqc552n32qccjcfhatmppea7u.ipfs.dweb.link/2",
+    answers: ["MA70", "S13", "A32", "C33"],
     correctAnswerIndex: 2,
   },
   {
-    questionText: "What color were all Ferraris originally?",
-    answers: ["Yellow", "White", "Blue", "Red"],
-    correctAnswerIndex: 3,
+    questionText:
+      "What was the special edition model for the A32?",
+      image:
+      "https://bafybeic7plidziqh4ozchzsvw6fld7z3rpqc552n32qccjcfhatmppea7u.ipfs.dweb.link/3",
+      answers: ["Autech", "Nismo", "GR", "Sport"],
+    correctAnswerIndex: 0,
+  },
+  {
+    questionText: "What is the parent company of Lexus?",
+    image:
+    "https://bafybeic7plidziqh4ozchzsvw6fld7z3rpqc552n32qccjcfhatmppea7u.ipfs.dweb.link/4",
+    answers: ["BMW", "Toyota", "Honda", "Nissan"],
+    correctAnswerIndex: 1,
   },
 ];
 
